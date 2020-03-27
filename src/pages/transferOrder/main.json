@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "i-toast": "../../../static/dist/toast/index",
+    "i-load-more": "../../../static/dist/load-more/index",
+    "up-pic": "../../../static/dist/up-pic/index"
+  },
+  "navigationBarTitleText": "订单管理"
+}

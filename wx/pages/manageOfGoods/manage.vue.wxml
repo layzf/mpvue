@@ -1,0 +1,11 @@
+<import src="/components/imgItem.vue.wxml" /><template name="79087f21">
+  <view class="_div data-v-1758e402 manage">
+    <scroll-view scroll-y="true" class="_scroll-view data-v-1758e402" style=" {{('height:' + (height + 'px') + ';')}}">
+      <view wx:if="{{items.length>0}}" class="_div data-v-1758e402"><template wx:key="item.id" data="{{...$root[$kk+'0-'+index], $root}}" is="0fee8552" wx:for="{{items}}" wx:for-index="index" wx:for-item="item"></template></view>
+      <view class="_div data-v-1758e402 none" wx:else>
+        <image src="/assets/images/blank.png" class="_img data-v-1758e402"></image> <label class="_span data-v-1758e402">空空如也</label>
+      </view>
+    </scroll-view>
+    <i-toast id="toast" class="_i-toast data-v-1758e402"></i-toast>
+  </view>
+</template>

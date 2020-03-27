@@ -1,0 +1,31 @@
+@import "../../common/vendor.wxss"
+.home {
+  background-color: #eeeeee; }
+  .home .h_title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    padding-right: 10px; }
+    .home .h_title .h_left {
+      flex: 1;
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 10px; }
+      .home .h_title .h_left .h_l_img {
+        width: 20px;
+        height: 20px; }
+    .home .h_title .h_right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex: 1; }
+      .home .h_title .h_right .h_img {
+        width: 20px;
+        height: 18px; }
+      .home .h_title .h_right .h_txt {
+        font-size: 14px; }
+
+.hide {
+  overflow: hidden;
+}

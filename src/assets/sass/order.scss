@@ -1,0 +1,41 @@
+.home{
+  background-color: #f7f7f7f7;
+  .h_title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    padding-right: 10px;
+    .h_left{
+      flex: 2;
+      display: flex;
+      justify-content: flex-start;
+      align-items:center;
+      margin-left:20rpx;
+      border-radius:10rpx;
+      height: 26px;
+      .h_l_img{
+        width: 20px;
+        height: 20px;
+      }
+      .h_input{
+        font-size: 14px;
+        padding-left: 10rpx;
+      }
+    }
+    .h_right{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex: 1;
+      .h_img{
+        width: 20px;
+        height: 18px;
+      }
+      .h_txt{
+        font-size: 14px;
+      }
+    }
+
+  }
+}

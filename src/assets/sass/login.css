@@ -1,0 +1,58 @@
+.login {
+  background-color: #ffffff; }
+  .login .l_head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30rpx;
+    padding-bottom: 40px;
+    flex-direction: column; }
+    .login .l_head .l_h_icon {
+      width: 105px;
+      height: 43px; }
+    .login .l_head span {
+      font-size: 14px;
+      color: #FF5D22;
+      border: 1px solid #FF5D22;
+      padding: 5px 20px;
+      margin-top: 20px;
+      border-radius: 8rpx; }
+  .login .l_content {
+    background-color: #ffffff;
+    height: 122px;
+    margin-top: 40px; }
+    .login .l_content .l_c_item {
+      border-bottom: 2rpx solid rgba(180, 180, 180, 0.2);
+      height: 80rpx;
+      display: flex;
+      align-items: center;
+      font-size: 32rpx;
+      width: 94%;
+      margin: 20px auto 0 auto; }
+      .login .l_content .l_c_item .l_img {
+        width: 20px;
+        height: 25px;
+        padding-right: 10px; }
+      .login .l_content .l_c_item input {
+        flex: 2; }
+    .login .l_content .code {
+      font-size: 14px;
+      width: 80px;
+      height: 20px;
+      text-align: center;
+      border-left: 1px solid rgba(180, 180, 180, 0.2);
+      line-height: 20px;
+      margin-right: 15px;
+      color: #ed3f14; }
+  .login .l_btn {
+    margin: 60rpx auto 44rpx auto;
+    color: #fff;
+    height: 100rpx;
+    line-height: 100rpx;
+    background: linear-gradient(to right, #e94816 50%, #f89322 100%);
+    border-radius: 8px;
+    width: 94%;
+    text-align: center;
+    border: none; }
+
+/*# sourceMappingURL=login.css.map */

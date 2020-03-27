@@ -1,0 +1,22 @@
+<import src="/components/item.vue.wxml" />
+<import src="/components/modalMenu.vue.wxml" /><template name="86cf3f9c">
+  <view class="_div data-v-2da0d9f7 home {{prohibited ? 'hide' : ''}}" style=" {{'height:' + height + 'px'}}">
+    <view class="_div data-v-2da0d9f7 h_title" style=" {{('height:' + (height * 0.08 + 'px') + ';')}}">
+      <view class="_div data-v-2da0d9f7 h_left">
+        <image bindtap="handleProxy" class="_img data-v-2da0d9f7 h_l_img" src="/assets/images/icon_search.png" data-eventid="{{'0'}}" data-comkey="{{$k}}"></image>
+      </view>
+      <view class="_div data-v-2da0d9f7 h_right" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+        <image class="_img data-v-2da0d9f7 h_img" src="/assets/images/filter.png"></image> <label class="_span data-v-2da0d9f7 h_txt">筛选</label>
+      </view>
+    </view>
+    <scroll-view class="_scroll-view data-v-2da0d9f7 content" scroll-y="true" bindscrolltolower="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" style=" {{('height:' + (height * 0.92 + 'px') + ';')}}">
+      <view wx:if="{{res.length>0}}" class="_div data-v-2da0d9f7"><template wx:key="item.id" data="{{...$root[$kk+'0-'+index], $root}}" is="04336267" wx:for="{{res}}" wx:for-index="index" wx:for-item="item"></template></view>
+      <view class="_div data-v-2da0d9f7 none" wx:else>
+        <image src="/assets/images/blank.png" class="_img data-v-2da0d9f7"></image> <label class="_span data-v-2da0d9f7">空空如也</label>
+      </view>
+      <i-load-more wx:if="{{isLoad && show}}" tip="{{'正在加载'}}" loading="{{true}}" class="_i-load-more data-v-2da0d9f7"></i-load-more>
+      <i-load-more wx:if="{{!isLoad && show}}" tip="{{loadData?'下拉加载更多':'没有更多了'}}" loading="{{false}}" class="_i-load-more data-v-2da0d9f7"></i-load-more>
+    </scroll-view>
+    <i-toast id="toast" class="_i-toast data-v-2da0d9f7"></i-toast> <template bindfilter="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'4'], $root}}" is="269cf188"></template>
+  </view>
+</template>

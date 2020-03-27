@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-toast": "../../../static/dist/toast/index"
+  },
+  "navigationBarTitleText": "门店管理"
+}

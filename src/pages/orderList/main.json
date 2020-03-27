@@ -1,0 +1,9 @@
+{
+  "usingComponents":{
+    "i-notice-bar": "../../../static/dist/notice-bar/index",
+    "i-drawer": "../../../static/dist/drawer/index",
+    "i-toast": "../../../static/dist/toast/index"
+  },
+  "navigationBarTitleText": "多让商家",
+  "enablePullDownRefresh": true
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "搜索订金单",
+  "usingComponents": {
+    "i-toast": "../../../static/dist/toast/index"
+  }
+}

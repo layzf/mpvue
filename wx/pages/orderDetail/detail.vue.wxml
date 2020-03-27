@@ -1,0 +1,35 @@
+<template name="71c5b8c8">
+  <view class="_div data-v-2e600dae home" style=" {{('height:' + (height + 'px') + ';')}}">
+    <view class="_div data-v-2e600dae content">
+      <view class="_div data-v-2e600dae c_title">订金单编号: {{data.So_number}}</view>
+      <view class="_div data-v-2e600dae c_content">
+        <view class="_div data-v-2e600dae c_row"><label class="_span data-v-2e600dae c_r_txt">联系人:</label>
+          <view class="_div data-v-2e600dae c_r_content">{{data.link_name}}</view>
+        </view>
+        <view class="_div data-v-2e600dae c_row"><label class="_span data-v-2e600dae c_r_txt">地址:</label>
+          <view class="_div data-v-2e600dae c_r_content">{{data.village_name}} {{data.door_number}}</view>
+        </view>
+        <view class="_div data-v-2e600dae c_row"><label class="_span data-v-2e600dae c_r_txt">项目名:</label>
+          <view class="_div data-v-2e600dae c_r_content">{{data.Project_name}}</view>
+        </view>
+        <view class="_div data-v-2e600dae c_row"><label class="_span data-v-2e600dae c_r_txt">项目定金:</label>
+          <view class="_div data-v-2e600dae c_r_content">{{data.Pay_price}}</view>
+        </view>
+        <view class="_div data-v-2e600dae c_row"><label class="_span data-v-2e600dae c_r_txt">下单时间:</label>
+          <view class="_div data-v-2e600dae c_r_content">{{data. Create_at}}</view>
+        </view>
+        <view class="_div data-v-2e600dae c_row"><label class="_span data-v-2e600dae c_r_txt">下单方式:</label>
+          <view class="_div data-v-2e600dae c_r_content">{{data.b}}</view>
+        </view>
+        <view class="_div data-v-2e600dae c_row"><label class="_span data-v-2e600dae c_r_txt">支付时间:</label>
+          <view class="_div data-v-2e600dae c_r_content">{{data.pay_at==null?'暂未支付':data.pay_at}}</view>
+        </view>
+        <view class="_div data-v-2e600dae c_row"><label class="_span data-v-2e600dae c_r_txt">支付方式:</label>
+          <view class="_div data-v-2e600dae c_r_content">{{data.a}}</view>
+        </view>
+      </view>
+    </view>
+    <i-spin size="{{'large'}}" fix wx:if="{{isShowLoading}}" class="_i-spin data-v-2e600dae"></i-spin>
+    <i-toast id="toast" class="_i-toast data-v-2e600dae"></i-toast>
+  </view>
+</template>

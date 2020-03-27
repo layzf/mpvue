@@ -1,0 +1,8 @@
+<template name="0fee8552">
+  <view bindtap="handleProxy" wx:if="{{data}}" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_div data-v-ff3e0ecc {{bg ? 'wbg' : 'bbg'}}">
+    <image class="_img data-v-ff3e0ecc b_img" src="{{data.img_url}}"></image>
+    <view class="_div data-v-ff3e0ecc b_content">
+      <view class="_div data-v-ff3e0ecc b_text"><label class="_span data-v-ff3e0ecc b_c_name">{{data.business_name?data.business_name:data.project_name}}</label> <label class="_span data-v-ff3e0ecc b_c_content" wx:if="{{data.shop_name?true:false}}">{{data.shop_name}}</label><label class="_span data-v-ff3e0ecc b_c_content" wx:elif="{{data.project_content}}">{{data.project_content}}</label></view> <label class="_span data-v-ff3e0ecc b_c_price" wx:if="{{data.so_price===undefined}}">{{data.pay_price?'￥'+data.pay_price:data.position_name+data.shop_address}}</label><label class="_span data-v-ff3e0ecc b_c_price" wx:else>￥{{data.so_price}}</label>
+    </view>
+  </view>
+</template>

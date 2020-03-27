@@ -1,0 +1,63 @@
+@import "../../common/vendor.wxss"
+
+.search {
+  background-color: #F7F7F7;
+}
+.search ._header {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  font-size: 28rpx;
+  justify-content: center;
+  padding-top: 20rpx;
+  padding-bottom: 30rpx;
+}
+.search ._header .head {
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  width: 78%;
+  height: 90rpx;
+  -webkit-border-radius: 40rpx;
+  -moz-border-radius: 40rpx;
+  border-radius: 40rpx;
+  padding-left: 40rpx;
+}
+.search ._header .head .h_img {
+  width: 42rpx;
+  height: 48rpx;
+}
+.search ._header .head .h_phone {
+  padding-left: 20rpx;
+  padding-top: 6rpx;
+}
+.search ._header .cancel {
+  color: #333333;
+  width: 10%;
+  text-align: center;
+  padding-left: 8rpx;
+}
+.search .content .result {
+  font-size: 28rpx;
+  padding-top: 28rpx;
+  padding-bottom: 28rpx;
+  padding-left: 20rpx;
+  letter-spacing: 4rpx;
+}
+.search .content .c_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.search .content .c_list .empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200rpx;
+}
+.search .content .c_list .empty ._img {
+  width: 100rpx;
+  height: 100rpx;
+  padding-bottom: 20rpx;
+  color: #999999;
+}

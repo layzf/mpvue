@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-toast": "../../../static/dist/toast/index"
+  },
+  "navigationBarTitleText": ""
+}

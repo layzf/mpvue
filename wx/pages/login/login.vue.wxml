@@ -1,0 +1,20 @@
+<template name="70f1d76c">
+  <view class="_div data-v-8233372a login" style=" {{('height:' + (height + 'px') + ';')}}">
+    <view class="_header data-v-8233372a">
+      <view class="_div data-v-8233372a l_head">
+        <image class="_img data-v-8233372a l_h_icon" src="/assets/images/logo@2x.png"></image> <label class="_span data-v-8233372a">商户端</label>
+      </view>
+    </view>
+    <view class="_div data-v-8233372a l_content">
+      <view class="_div data-v-8233372a l_c_item">
+        <image class="_img data-v-8233372a l_img" src="/assets/images/phone.png"></image> <input value="{{inputData.phone}}" bindinput="handleProxy" type="number" placeholder="请输入您的手机号" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_input data-v-8233372a" />
+      </view>
+      <view class="_div data-v-8233372a l_c_item">
+        <image class="_img data-v-8233372a l_img" src="/assets/images/code.png"></image> <input type="number" value="{{inputData.code}}" bindinput="handleProxy" placeholder="请输入收到的验证码" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_input data-v-8233372a" />
+        <view class="_div data-v-8233372a code" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">{{code.txt}}</view>
+      </view>
+    </view>
+    <i-button i-class="l_btn" type="ghost" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_i-button data-v-8233372a">登录</i-button>
+    <i-toast id="toast" class="_i-toast data-v-8233372a"></i-toast>
+  </view>
+</template>

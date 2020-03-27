@@ -1,0 +1,31 @@
+<import src="/components/mine.vue.wxml" /><template name="af7dd71c">
+  <view class="_div data-v-7a303537 index" style=" {{('height:' + (height + 'px') + ';')}}">
+    <view class="_header data-v-7a303537">
+      <view class="_div data-v-7a303537 i_head">
+        <image bindtap="handleProxy" class="_img data-v-7a303537 i_h_img" src="/assets/images/scan.png" data-eventid="{{'0'}}" data-comkey="{{$k}}"></image> <label class="_span data-v-7a303537">转单</label>
+      </view>
+    </view>
+    <view class="_div data-v-7a303537 i_content">
+      <view class="_div data-v-7a303537 i_c_notice">
+        <i-notice-bar icon="systemprompt" background-color="{{'#ffffff'}}" loop class="_i-notice-bar data-v-7a303537"> 2018年世界杯,将于6月14日至7月15日举行;2018年世界杯,将于6月14日至7月15日举行; </i-notice-bar>
+      </view>
+      <view class="_div data-v-7a303537 i_c_func">
+        <view class="_div data-v-7a303537 i_c_item" bindtap="handleProxy" id="store" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+          <image src="/assets/images/store.png" class="_img data-v-7a303537"></image> <label class="_span data-v-7a303537">门店管理</label>
+        </view>
+        <view class="_div data-v-7a303537 i_c_item" bindtap="handleProxy" id="subscription" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+          <image src="/assets/images/subscription.png" class="_img data-v-7a303537"></image> <label class="_span data-v-7a303537">订金管理</label>
+        </view>
+        <view class="_div data-v-7a303537 i_c_item" bindtap="handleProxy" id="order" data-eventid="{{'3'}}" data-comkey="{{$k}}">
+          <image src="/assets/images/order.png" class="_img data-v-7a303537"></image> <label class="_span data-v-7a303537">订单管理</label>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-7a303537 f_btn">
+      <view class="_div data-v-7a303537 confirm" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">我的</view>
+      <view class="_div data-v-7a303537 cancel" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}">注销</view>
+    </view>
+    <i-drawer mode="left" visible="{{showMenu}}" bindclose="handleProxy" data-eventid="{{'6'}}" data-comkey="{{$k}}" class="_i-drawer data-v-7a303537"><template data="{{...$root[$kk+'1'], $root}}" is="6cbe6ba7"></template></i-drawer>
+    <i-toast id="toast" class="_i-toast data-v-7a303537"></i-toast>
+  </view>
+</template>

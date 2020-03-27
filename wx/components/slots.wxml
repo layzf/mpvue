@@ -1,0 +1,7 @@
+<import src="/components/imgItem.vue.wxml" />
+<import src="/components/item.vue.wxml" />
+<import src="/components/modalMenu.vue.wxml" />
+<import src="/components/mine.vue.wxml" />
+<import src="/components/item.vue.wxml" />
+<import src="/components/order-item.vue.wxml" />
+<import src="/components/modalMenu.vue.wxml" />

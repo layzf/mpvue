@@ -1,0 +1,16 @@
+<import src="/components/imgItem.vue.wxml" /><template name="04336267">
+  <view class="_div data-v-ebc217c2 item" wx:if="{{data}}">
+    <view class="_div data-v-ebc217c2 i_head">
+      <view class="_div data-v-ebc217c2 i_left">
+        <view class="_p data-v-ebc217c2 l_phone">{{data.name}} {{data.mobile}}</view>
+        <view class="_div data-v-ebc217c2 left">
+          <image src="/assets/images/icon_dz@3x.png" class="_img data-v-ebc217c2"></image> <label class="_span data-v-ebc217c2">{{data.village_name}} {{data.door_number}}</label>
+        </view>
+      </view>
+      <view class="_div data-v-ebc217c2 i_right">{{data.status}}</view>
+    </view>
+    <view class="_div data-v-ebc217c2 i_content"><template bindtoDesc="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'0'], $root}}" is="0fee8552"></template>
+      <view class="_div data-v-ebc217c2 i_c_total"><label class="_span data-v-ebc217c2 i_c_t_txt">订单总额:</label> <label class="_span data-v-ebc217c2 i_c_t_price"> ￥{{data.total_price}}元</label></view>
+    </view>
+  </view>
+</template>

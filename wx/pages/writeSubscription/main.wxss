@@ -1,0 +1,101 @@
+@import "../../common/vendor.wxss"
+
+.home ._header .h_item {
+  border-top: 2rpx solid rgba(180, 180, 180, 0.2);
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  font-size: 28rpx;
+  align-items: center;
+}
+.home ._header .h_item .h_i_title {
+  color: #999999;
+  flex: 1;
+}
+.home ._header .h_item .h_i_img {
+  width: 24rpx;
+  height: 40rpx;
+}
+.home ._header .h_item ._input {
+  flex: 4;
+  padding-right: 20rpx;
+  text-align: right;
+}
+.home .content {
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: column;
+}
+.home .content .c_total {
+  display: flex;
+  align-items: center;
+  color: #999999;
+  width: 90%;
+  margin: 0 auto;
+  border-top: 2rpx solid rgba(180, 180, 180, 0.2);
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+.home .content .c_total .c_t_input {
+  flex: 4;
+  text-align: right;
+  padding-right: 4rpx;
+  color: #000;
+}
+.home .content .c_photo {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  border-top: 2rpx solid rgba(180, 180, 180, 0.2);
+  padding-top: 40rpx;
+  padding-bottom: 20rpx;
+}
+.home .content .c_photo .c_p_txt {
+  color: #999999;
+}
+.home .content .c_photo .c_img {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2;
+  padding-left: 40rpx;
+}
+.home .content .c_photo .c_img .img {
+  width: 80%;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+}
+.home .content .c_remark {
+  display: flex;
+  justify-content: flex-start;
+  border-top: 2rpx solid rgba(180, 180, 180, 0.2);
+  padding-top: 40rpx;
+  width: 90%;
+  margin: 0 auto;
+}
+.home .content .c_remark .c_r_txt {
+  flex: 2;
+  color: #999999;
+}
+.home .content .c_remark .textarea {
+  height: 200rpx;
+  flex: 7;
+  border: 2rpx solid rgba(180, 180, 180, 0.2);
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+}
+.home .f_btn {
+  width: 100%;
+  height: 100rpx;
+  color: #ffffff;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  background-color: #E94816;
+  margin-top: 120rpx;
+}
+.line {
+  background-color: #f7f7f7;
+  height: 20rpx;
+}

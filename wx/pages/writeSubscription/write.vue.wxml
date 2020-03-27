@@ -1,0 +1,15 @@
+<import src="/components/imgItem.vue.wxml" /><template name="95e99956">
+  <view class="_div data-v-b4abb558 home">
+    <view class="_header data-v-b4abb558">
+      <view class="_div data-v-b4abb558 h_item"><label class="_span data-v-b4abb558 h_i_title">收货地址</label> <label class="_span data-v-b4abb558">{{info.village_name}} {{info.door_number}}</label></view>
+      <view class="_div data-v-b4abb558 h_item"><label class="_span data-v-b4abb558 h_i_title">联系人</label> <label class="_span data-v-b4abb558">{{info.link_name}}</label></view>
+    </view>
+    <view class="_div data-v-b4abb558 line"></view>
+    <view class="_div data-v-b4abb558 content"><template data="{{...$root[$kk+'0'], $root}}" is="0fee8552"></template>
+      <view class="_div data-v-b4abb558 c_total"><label class="_span data-v-b4abb558">订单总额:</label> <input value="{{item.total_price}}" disabled="true" class="_input data-v-b4abb558 c_t_input" /> <label class="_span data-v-b4abb558">元</label></view>
+      <view class="_div data-v-b4abb558 c_photo"><label class="_span data-v-b4abb558 c_p_txt">合同/单据</label>
+        <view class="_div data-v-b4abb558 c_img">
+          <image mode="aspectFit" src="{{imgUrl}}" class="_image data-v-b4abb558 img" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></image>
+        </view>
+      </view>
+      <view class="_div data-v-b4abb558 c_remark"><label class="_span data-v-b4abb558 c_r_txt">备注</label> <textarea class="_textarea data-v-b4abb558 textarea" placeholder="备注一下" value="{{remark}}" bindinput="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" /></view></view> <view class="_div data-v-b4abb558 f_btn" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">提交订单</view> <i-toast id="toast" class="_i-toast data-v-b4abb558"></i-toast></view></template>

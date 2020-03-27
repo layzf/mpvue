@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/login/main",
+    "pages/cashWithdrawalList/main",
+    "pages/cashWithdrawalDetail/main",
+    "pages/incomeDetailsList/main",
+    "pages/goShoopTakeNotes/main",
+    "pages/userCanCodeInfoMation/main",
+    "pages/changeOrderList/main",
+    "pages/success/main",
+    "pages/orderList/main",
+    "pages/writeSubscription/main",
+    "pages/modifyContact/main",
+    "pages/home/main",
+    "pages/choosecontact/main",
+    "pages/transferOrder/main",
+    "pages/subscription/main",
+    "pages/manageOfGoods/main",
+    "pages/orderDetail/main",
+    "pages/search/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF5D22",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  }
+}

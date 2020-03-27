@@ -1,0 +1,52 @@
+.search {
+  background-color: #F7F7F7; }
+  .search header {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    font-size: 14px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 15px; }
+    .search header .head {
+      background-color: #f6f6f6;
+      display: flex;
+      align-items: center;
+      width: 78%;
+      height: 45px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      padding-left: 20px; }
+      .search header .head .h_img {
+        width: 21px;
+        height: 24px; }
+      .search header .head .h_phone {
+        padding-left: 10px;
+        padding-top: 3px; }
+    .search header .cancel {
+      color: #333333;
+      width: 10%;
+      text-align: center;
+      padding-left: 4px; }
+  .search .content .result {
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    letter-spacing: 2px; }
+  .search .content .c_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .search .content .c_list .empty {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .search .content .c_list .empty img {
+        width: 50px;
+        height: 50px;
+        padding-bottom: 10px;
+        color: #999999; }
+
+/*# sourceMappingURL=search.css.map */

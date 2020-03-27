@@ -1,0 +1,20 @@
+<import src="/components/item.vue.wxml" /><template name="c8da03dc">
+  <view class="_div data-v-6c9eed17 search">
+    <view class="_header data-v-6c9eed17">
+      <view class="_div data-v-6c9eed17 head">
+        <image class="_img data-v-6c9eed17 h_img" src="/assets/images/icon_ss@3x.png"></image> <input class="_input data-v-6c9eed17 h_phone" value="{{phone}}" bindinput="handleProxy" bindblur="handleProxy" type="text" placeholder="输入手机号进行搜索" data-eventid="{{'0'}}" data-comkey="{{$k}}" />
+      </view>
+      <view class="_div data-v-6c9eed17 cancel">取消</view>
+    </view>
+    <view class="_div data-v-6c9eed17 content">
+      <view class="_div data-v-6c9eed17 result">搜索结果 共{{data.length}}条</view>
+      <scroll-view scroll-y="true" class="_scroll-view data-v-6c9eed17 c_list" style=" {{('height:' + (height * 0.8 + 'px') + ';')}}">
+        <view wx:if="{{data.length>0}}" class="_div data-v-6c9eed17"><template wx:key="item.id" data="{{...$root[$kk+'0-'+index], $root}}" is="04336267" wx:for="{{data}}" wx:for-index="index" wx:for-item="item"></template></view>
+        <view class="_div data-v-6c9eed17 empty" wx:else>
+          <image src="/assets/images/blank.png" class="_img data-v-6c9eed17"></image> <label class="_span data-v-6c9eed17">空空如也</label>
+        </view>
+      </scroll-view>
+    </view>
+    <i-toast id="toast" class="_i-toast data-v-6c9eed17"></i-toast>
+  </view>
+</template>

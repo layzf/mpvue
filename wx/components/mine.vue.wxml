@@ -1,0 +1,25 @@
+<template name="6cbe6ba7">
+  <view class="_div data-v-1aac0542 home" wx:if="{{data}}" style=" {{(  'height:' +  (info.windowHeight + 'px') +  ';' +  'width:' +  (info.screenWidth * 0.8 + 'px') +  ';')}}">
+    <view class="_header data-v-1aac0542">
+      <view class="_div data-v-1aac0542 avar">店长</view>
+      <view class="_div data-v-1aac0542 h_daturn">
+        <view class="_div data-v-1aac0542 h_identity"><label class="_span data-v-1aac0542">{{data.user_name}}</label>
+          <view class="_div data-v-1aac0542 icon">店长</view>
+        </view> <label class="_span data-v-1aac0542 h_phone">{{data.mobile}}</label>
+      </view>
+    </view>
+    <view class="_div data-v-1aac0542 content">
+      <view class="_div data-v-1aac0542 c_item"><label class="_span data-v-1aac0542 c_i_title">商户名称:</label> <label class="_span data-v-1aac0542 c_i_content">{{data.brands}}</label></view>
+      <view class="_div data-v-1aac0542 c_item"><label class="_span data-v-1aac0542 c_i_title">经营产品:</label> <label class="_span data-v-1aac0542 c_i_content">{{data.business_name}}</label></view>
+      <view class="_div data-v-1aac0542 c_icon">
+        <view class="_div data-v-1aac0542 icon">商家</view>
+        <view class="_div data-v-1aac0542 icon">导购</view>
+      </view>
+      <view class="_div data-v-1aac0542 c_icon">
+        <view class="_div data-v-1aac0542 avar">商家</view>
+        <view class="_div data-v-1aac0542 avar">导购</view>
+      </view>
+    </view>
+    <view class="_div data-v-1aac0542 foot" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"> 退出登录 </view>
+  </view>
+</template>

@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/login/main",
+    "pages/writeSubscription/main",
+    "pages/home/main",
+    "pages/transferOrder/main",
+    "pages/subscription/main",
+    "pages/manageOfGoods/main",
+    "pages/orderDetail/main",
+    "pages/search/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF5D22",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  }
+}

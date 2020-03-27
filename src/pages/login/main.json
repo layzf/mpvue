@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "i-icon": "../../../static/dist/icon/index",
+    "i-button": "../../../static/dist/button/index",
+    "i-toast": "../../../static/dist/toast/index"
+  },
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black"
+}

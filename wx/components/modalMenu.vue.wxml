@@ -1,0 +1,27 @@
+<template name="269cf188">
+  <view class="_div data-v-443fb2d0 modal {{[isShow ? '' : isShowModal ? 'hideBg' : '']}}" hidden="{{!(isShowModal)}}" style=" {{('height:' + (height + 'px') + ';')}}">
+    <view class="_div data-v-443fb2d0 modal_content {{isShow ? 'showModal' : 'hideModal'}}">
+      <view class="_div data-v-443fb2d0 item" style=" {{('border-top:' + 'none' + ';')}}"><label class="_span data-v-443fb2d0 i_title">分类</label>
+        <radio-group id="classification" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_radio-group data-v-443fb2d0">
+          <view class="_div data-v-443fb2d0 radio-group"><label class="_label data-v-443fb2d0 radio" wx:key="item.id" key="{{item.id}}" wx:for="{{items.classification}}" wx:for-index="index" wx:for-item="item">
+              <radio value="{{item.id}}" checked="{{item.checked}}" color="#FF5D22" class="_radio data-v-443fb2d0" />
+              {{item.name}}
+            </label></view>
+        </radio-group>
+      </view>
+      <view class="_div data-v-443fb2d0 item"><label class="_span data-v-443fb2d0 i_title">时间</label>
+        <radio-group id="time" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_radio-group data-v-443fb2d0">
+          <view class="_div data-v-443fb2d0 radio-group"><label class="_label data-v-443fb2d0 radio" wx:key="item.id" key="{{item.id}}" wx:for="{{items.time}}" wx:for-index="index" wx:for-item="item">
+              <radio value="{{item.id}}" checked="{{item.checked}}" color="#FF5D22" class="_radio data-v-443fb2d0" />
+              {{item.name}}
+            </label></view>
+        </radio-group>
+      </view>
+      <view class="_div data-v-443fb2d0 foot">
+        <view class="_div data-v-443fb2d0 clear" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">清空</view>
+        <view class="_div data-v-443fb2d0 confirm" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">确认</view>
+      </view>
+      <image bindtap="handleProxy" class="_img data-v-443fb2d0 m_img" src="/assets/images/close.png" data-eventid="{{'4'}}" data-comkey="{{$k}}"></image>
+    </view>
+  </view>
+</template>

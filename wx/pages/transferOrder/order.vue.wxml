@@ -1,0 +1,14 @@
+<import src="/components/order-item.vue.wxml" />
+<import src="/components/modalMenu.vue.wxml" /><template name="4cf2010b">
+  <view class="_div data-v-2080fc0a home {{prohibited ? 'hide' : ''}}">
+    <scroll-view class="_scroll-view data-v-2080fc0a content" scroll-y="true" bindscrolltolower="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" style=" {{'height:' + height + 'px'}}">
+      <view wx:if="{{data.length>0}}" class="_div data-v-2080fc0a"><template wx:key="item.id" data="{{...$root[$kk+'0-'+index], $root}}" is="f411cdf4" wx:for="{{data}}" wx:for-index="index" wx:for-item="item"></template></view>
+      <view class="_div data-v-2080fc0a none" wx:else>
+        <image src="/assets/images/blank.png" class="_img data-v-2080fc0a"></image> <label class="_span data-v-2080fc0a">空空如也</label>
+      </view>
+      <i-load-more wx:if="{{isLoad && show}}" tip="{{'正在加载'}}" loading="{{true}}" class="_i-load-more data-v-2080fc0a"></i-load-more>
+      <i-load-more wx:if="{{!isLoad && show}}" tip="{{loadData?'下拉加载更多':'没有更多了'}}" loading="{{false}}" class="_i-load-more data-v-2080fc0a"></i-load-more>
+    </scroll-view> <template bindfilter="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" data="{{...$root[$kk+'3'], $root}}" is="269cf188"></template>
+    <i-toast id="toast" class="_i-toast data-v-2080fc0a"></i-toast>
+  </view>
+</template>

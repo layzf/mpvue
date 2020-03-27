@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-toast": "../../../static/dist/toast/index",
+    "i-spin": "../../../static/dist/spin/index"
+  },
+  "navigationBarTitleText": "详情"
+}

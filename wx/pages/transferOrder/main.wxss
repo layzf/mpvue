@@ -1,0 +1,116 @@
+@import "../../common/vendor.wxss"
+
+.home {
+  background-color: #eeeeee;
+}
+.home .h_title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  padding-right: 20rpx;
+}
+.home .h_title .h_left {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20rpx;
+}
+.home .h_title .h_left .h_l_img {
+  width: 40rpx;
+  height: 40rpx;
+}
+.home .h_title .h_right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+}
+.home .h_title .h_right .h_img {
+  width: 40rpx;
+  height: 36rpx;
+}
+.home .h_title .h_right .h_txt {
+  font-size: 28rpx;
+}
+.hide {
+  overflow: hidden;
+}
+.order-item {
+  background-color: #ffffff;
+  animation: fade 1s;
+}
+.order-item .o-i-head {
+  display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid rgba(180, 180, 180, 0.2);
+  font-size: 28rpx;
+  border-top: 2rpx solid rgba(180, 180, 180, 0.2);
+}
+.order-item .o-i-head .i_h_contact {
+  flex: 1;
+}
+.order-item .o-i-head .i_h_contact ._span {
+  padding-left: 20rpx;
+}
+.order-item .o-i-head .i_h_status {
+  color: #ed3f14;
+  padding-right: 20rpx;
+}
+.order-item .i_content {
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+.order-item .i_content .i_c_title {
+  font-weight: 600;
+  color: #000;
+  font-size: 28rpx;
+  padding-left: 20rpx;
+}
+.order-item .i_content .i_c_content {
+  padding-top: 16rpx;
+  font-size: 24rpx;
+  color: #666666;
+  padding-left: 20rpx;
+}
+.order-item .i_content .i_c_total {
+  padding-top: 16rpx;
+  font-size: 28rpx;
+  color: #FF5D22;
+  padding-left: 20rpx;
+}
+.order-item .i_content .i_c_total .i_c_time {
+  color: #999999;
+}
+.order-item .i_foot {
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  text-align: right;
+  padding-right: 20rpx;
+  border-top: 2rpx solid rgba(180, 180, 180, 0.2);
+}
+.order-item .i_foot .i_btn {
+  background-color: #ed3f14;
+  color: #ffffff;
+  font-size: 26rpx;
+  padding: 8rpx 12rpx;
+  border-radius: 8rpx;
+  display: inline-block;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.step {
+  background-color: #eeeeee;
+  height: 20rpx;
+  width: 100%;
+}
+@keyframes fade {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}

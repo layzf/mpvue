@@ -1,0 +1,1 @@
+<import src="/pages/manageOfGoods/manage.vue.wxml" /><template is="79087f21" data="{{ ...$root['0'], $root }}"/>

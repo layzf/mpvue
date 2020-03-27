@@ -1,0 +1,62 @@
+@import "../../common/vendor.wxss"
+
+.login {
+  background-color: #ffffff;
+}
+.login .l_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100rpx;
+  padding-bottom: 40rpx;
+  flex-direction: column;
+}
+.login .l_head .l_h_icon {
+  width: 280rpx;
+  height: 110rpx;
+}
+.login .l_head ._span {
+  font-size: 28rpx;
+  color: #FF5D22;
+  border: 1rpx solid #FF5D22;
+  padding: 10rpx 40rpx;
+  margin-top: 40rpx;
+}
+.login .l_content {
+  background-color: #ffffff;
+  height: 244rpx;
+  margin-top: 80rpx;
+}
+.login .l_content .l_c_item {
+  border-bottom: 2rpx solid rgba(180, 180, 180, 0.2);
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  width: 94%;
+  margin: 40rpx auto 0 auto;
+}
+.login .l_content .l_c_item .l_img {
+  width: 50rpx;
+  height: 60rpx;
+  padding-right: 20rpx;
+}
+.login .l_content .l_c_item ._input {
+  flex: 2;
+}
+.login .l_content .code {
+  font-size: 24rpx;
+  width: 160rpx;
+  height: 64rpx;
+  text-align: center;
+  border: 2rpx solid rgba(237, 63, 20, 0.3);
+  line-height: 64rpx;
+  margin-right: 30rpx;
+  color: #ed3f14;
+}
+.login .l_btn {
+  margin-top: 100rpx;
+  background-color: #ed3f14 !important;
+  color: #ffffff !important;
+  font-size: 32rpx !important;
+}

@@ -1,0 +1,16 @@
+<template name="f411cdf4">
+  <view class="_div data-v-1cac80be order-item" wx:if="{{data}}">
+    <view class="_div data-v-1cac80be o-i-head">
+      <view class="_div data-v-1cac80be i_h_contact"><label class="_span data-v-1cac80be">{{data.link_name}}</label> <label class="_span data-v-1cac80be">{{data.link_mobile}}</label></view>
+      <view class="_div data-v-1cac80be i_h_status">{{data.status}}</view>
+    </view>
+    <view class="_div data-v-1cac80be i_content"><label class="_span data-v-1cac80be i_c_title">{{data.village_name}} {{data.door_number}}</label>
+      <view class="_div data-v-1cac80be i_c_content">{{data.shop_name}}</view>
+      <view class="_div data-v-1cac80be i_c_total"><label class="_span data-v-1cac80be">订金 ￥{{data.pay_price}}</label></view>
+    </view>
+    <view class="_div data-v-1cac80be i_foot">
+      <view class="_div data-v-1cac80be i_btn" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">交付订单</view>
+    </view>
+    <view class="_div data-v-1cac80be step"></view>
+  </view>
+</template>
